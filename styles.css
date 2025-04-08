@@ -55,3 +55,37 @@
     background: black;
     color: red;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(39, 38, 38, 0.507);
+    color: white;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.left a, .right a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.copyright {
+    margin: 0 20px;
+    
+
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
